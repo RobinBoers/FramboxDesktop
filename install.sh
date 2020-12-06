@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Cloning repos..."
-git clone  https://github.com/RobinBoers/FramboxDesktop /home/pi/FramboxDesktop
+git clone --recursive --depth 1 --branch master https://github.com/RobinBoers/Frambox /home/pi/FramboxDesktop
 
 echo "Installing desktop..."
 
