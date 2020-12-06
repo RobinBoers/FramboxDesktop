@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Cloning repos..."
-git clone --recursive --depth 1 --branch master https://github.com/RobinBoers/Frambox /home/pi/FramboxDesktop
+git clone --recursive --depth 1 --branch master https://github.com/RobinBoers/FramboxDesktop /home/pi/Frambox
 
 echo "Installing desktop..."
 
@@ -31,6 +31,7 @@ sudo apt-get install -y xarchiver
 sudo apt-get install -y lxrandr
 
 echo "Copying config files..."
+sudo cp -R -f /home/pi/Frambox/applications /usr/share/applications
 sudo cp -f /home/pi/Frambox/.bashrc /home/pi/.bashrc
 sudo cp -f -R -v /home/pi/Frambox/.gtkrc-2.0-mine /home/pi
 sudo cp -f -R -v /home/pi/Frambox/.gtkrc-2.0 /home/pi
