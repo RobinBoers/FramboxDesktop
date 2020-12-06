@@ -32,8 +32,8 @@ sudo apt-get install -y lxrandr
 
 echo "Copying config files..."
 sudo cp -f /home/pi/Frambox/.bashrc /home/pi/.bashrc
-sudo cp -R -f /home/pi/Frambox/lxterminal.conf /home/pi/.config/lxterminal/lxterminal.conf
-sudo cp -R -f /home/pi/Frambox/.gtkrc-2.0-mine /home/pi/.gtkrc-2.0-mine
+sudo cp -f -R -v /home/pi/Frambox/.gtkrc-2.0-mine /home/pi
+sudo cp -f -R -v /home/pi/Frambox/.gtkrc-2.0 /home/pi
 sudo cp -R -f /home/pi/Frambox/lightdm-gtk-greeter.conf /etc/lightdm/lightdm-gtk-greeter.conf
 sudo cp -R -f /home/pi/Frambox/.config/ /home/pi/
 sudo cp -f /home/pi/Frambox/autostart_openbox.sh /home/pi/.config/openbox/autostart.sh

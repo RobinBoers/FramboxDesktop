@@ -123,7 +123,7 @@ function getIPAddress() {
     [[ -n "$ip_route" ]] && grep -oP "src \K[^\s]+" <<< "$ip_route"
 }
 
-function retropie_welcome() {
+function frambox_welcome() {
     local upSeconds="$(/usr/bin/cut -d. -f1 /proc/uptime)"
     local secs=$((upSeconds%60))
     local mins=$((upSeconds/60%60))
@@ -245,5 +245,5 @@ function retropie_welcome() {
     echo -e "\n$out"
 }
 
-retropie_welcome
+frambox_welcome
 # RETROPIE PROFILE END
