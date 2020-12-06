@@ -42,7 +42,12 @@
 				<execute>obconf</execute>
 			</action>
 		</item>
-		<item label="Taskbar settings">
+		<item label="Appearance">
+			<action name="Execute">
+				<execute>lxappearance</execute>
+			</action>
+		</item>
+		<item label="Menubar settings">
 			<action name="Execute">
 				<execute>tint2conf</execute>
 			</action>
@@ -52,14 +57,9 @@
 				<execute>pavucontrol</execute>
 			</action>
 		</item>
-		<item label="Wallpaper settings">
+		<item label="Notification settings">
 			<action name="Execute">
-				<execute>nitrogen</execute>
-			</action>
-		</item>
-		<item label="Appearance">
-			<action name="Execute">
-				<execute>lxappearance</execute>
+				<execute>xfce4-notifyd-config</execute>
 			</action>
 		</item>
 		<item label="Menu settings">
