@@ -4,7 +4,7 @@ from guizero import App, Text, PushButton
 app = App(title="Logoff", width=240, height=50, layout="grid")
 
 def shutdown():
-    bashCommand = "sudo shutdown -r now"
+    bashCommand = "sudo shutdown now"
     process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
     output, error = process.communicate()
     
