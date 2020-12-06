@@ -28,7 +28,7 @@
 		<separator/>
 		<item label="Autostart">
 			<action name="Execute">
-				<execute>gedit /home/pi/.config/openbox/autostart.sh</execute>
+				<execute>leafpad /home/pi/.config/openbox/autostart.sh</execute>
 			</action>
 		</item>
 		<item label="File Manager (root)">

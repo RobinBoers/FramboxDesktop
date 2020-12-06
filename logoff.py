@@ -10,8 +10,8 @@ def shutdown():
     
 def reboot():
     bashCommand2 = "sudo reboot"
-    process = subprocess.Popen(bashCommand2.split(), stdout=subprocess.PIPE)
-    output, error = process.communicate()
+    process2 = subprocess.Popen(bashCommand2.split(), stdout=subprocess.PIPE)
+    output, error = process2.communicate()
     
 def logout():
     print("test")
