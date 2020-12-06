@@ -16,8 +16,8 @@ sudo apt-get install -y lxterminal
 sudo apt-get install -y leafpad  
 sudo apt-get install -y xfce4-notifyd
 sudo apt-get install -y tint2
-# sudo apt-get install -y dolphin
-# sudo apt-get install -y xcompmgr cairo-dock
+sudo apt-get install -y xcompmgr
+sudo apt-get install -y plank
 sudo apt-get install -y pcmanfm
 sudo apt-get install -y lxappearance
 sudo apt-get install -y nitrogen
