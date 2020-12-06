@@ -40,6 +40,8 @@ sudo cp -R -f /home/pi/Frambox/.config/ /home/pi/
 sudo cp -f /home/pi/Frambox/autostart_openbox.sh /home/pi/.config/openbox/autostart.sh
 
 echo "Settings permissions..."
+sudo chmod 777 /home/pi/Frambox
+sudo chmod 777 /home/pi/.config
 sudo chmod 777 /home/pi/.bashrc
 sudo chmod 777 /home/pi/.config/lxterminal/lxterminal.conf
 sudo chmod 777 /home/pi/.gtkrc-2.0-mine
