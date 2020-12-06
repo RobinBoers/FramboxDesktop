@@ -62,6 +62,8 @@ sudo apt-get install -y firefox-esr
 sudo apt-get install -y python-wxgtk3.0
 sudo apt-get install -y matchbox-keyboard
 
+sudo pip3 install guizero
+
 echo "Enabling SSH..."
 sudo systemctl enable ssh
 # sudo cp -f /home/pi/Frambox/ssh /boot/ssh
