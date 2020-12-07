@@ -14,7 +14,9 @@ def reboot():
     output, error = process2.communicate()
     
 def logout():
-    print("test")
+    bashCommand3 = "openbox --exit"
+    process3 = subprocess.Popen(bashCommand3.split(), stdout=subprocess.PIPE)
+    output, error = process3.communicate()
 
 option1 = PushButton(app, command=shutdown, text="Shutdown", grid=[3,1])
 option1 = PushButton(app, command=reboot, text="Reboot", grid=[2,1])
