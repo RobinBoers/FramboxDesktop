@@ -19,7 +19,7 @@ def logout():
     output, error = process3.communicate()
 
 option1 = PushButton(app, command=shutdown, text="Shutdown", grid=[3,1])
-option1 = PushButton(app, command=reboot, text="Reboot", grid=[2,1])
-option1 = PushButton(app, command=logout, text="Logout", grid=[1,1])
+option2 = PushButton(app, command=reboot, text="Reboot", grid=[2,1])
+option3 = PushButton(app, command=logout, text="Logout", grid=[1,1])
 
 app.display()
