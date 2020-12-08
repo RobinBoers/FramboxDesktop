@@ -27,6 +27,7 @@ sudo apt-get install -y volti
 sudo apt-get install -y rofi
 sudo apt-get install -y lxtask
 sudo apt-get install -y elementary-xfce-icon-theme
+sudo apt-get install -y lxqt-system-theme papirus-icon-theme
 sudo apt-get install -y xarchiver
 sudo apt-get install -y lxrandr
 
