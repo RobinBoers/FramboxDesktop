@@ -65,6 +65,7 @@ sudo apt-get install -y python-wxgtk3.0
 sudo apt-get install -y matchbox-keyboard
 
 sudo pip3 install guizero
+sudo pip3 install gobject
 
 echo "Enabling SSH..."
 sudo systemctl enable ssh
