@@ -10,7 +10,8 @@ The custom desktop uses:
 - leafpad
 - lxterminal
 - xfce4-notifyd (notifications)
-- tint2 (taskbar)
+- tint2 (menu bar)
+- plank (dock)
 - pcmanfm
 - lxappearance
 - nitrogen (wallpapers)
