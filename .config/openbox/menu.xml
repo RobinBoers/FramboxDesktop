@@ -1,82 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/                 file:///usr/share/openbox/menu.xsd">
 	<menu id="root-menu" label="Openbox 3">
-		<item label="Terminal">
+		<separator label="FramboxOS"/>
+		<item icon="/usr/share/icons/Papirus-Dark/16x16/apps/openterm.svg" label="Terminal">
 			<action name="Execute">
 				<execute>lxterminal</execute>
 			</action>
 		</item>
-		<item label="File Manager">
+		<item icon="/usr/share/icons/Papirus-Dark/16x16/apps/xfce-filemanager.svg" label="File Manager">
 			<action name="Execute">
 				<execute>pcmanfm</execute>
 			</action>
 		</item>
-		<item label="Web browser">
+		<item icon="/usr/share/icons/Papirus-Dark/16x16/apps/firefox-alt.svg" label="Web browser">
 			<action name="Execute">
 				<execute>x-www-browser</execute>
 			</action>
 		</item>
 		<menu id="/Debian"/>
 		<!-- This requires the presence of the 'openbox-menu' package to work -->
-		<separator/>
-		<!--<menu execute="/usr/bin/obamenu" id="applications-menu" label="Applications"/>-->
-		<item label="Application">
+		<separator label="Apps"/>
+		<menu icon="/usr/share/icons/Papirus-Dark/16x16/apps/app-launcher.svg" execute="/usr/bin/obamenu" id="applications-menu" label="Applications"/>
+		<item icon="/usr/share/icons/Papirus-Dark/16x16/apps/terminal.svg" label="Search">
 			<action name="Execute">
 				<execute>rofi -show drun</execute>
 			</action>
 		</item>
-		<separator/>
-		<item label="Autostart">
+		<separator label="Other"/>
+		<item icon="/usr/share/icons/Papirus-Dark/16x16/apps/accessories-text-editor.svg" label="Autostart">
 			<action name="Execute">
 				<execute>leafpad /home/pi/.config/openbox/autostart.sh</execute>
 			</action>
 		</item>
-		<item label="File Manager (root)">
+		<item icon="/usr/share/icons/Papirus-Dark/16x16/apps/xfce-filemanager.svg" label="File Manager (root)">
 			<action name="Execute">
 				<execute>sudo pcmanfm</execute>
 			</action>
 		</item>
-		<separator/>
-		<item label="Configuration">
+		<separator label="Settings"/>
+		<item icon="/usr/share/icons/Papirus-Dark/16x16/apps/obconf.svg" label="Openbox">
 			<action name="Execute">
 				<execute>obconf</execute>
 			</action>
 		</item>
-		<item label="Appearance">
+		<item icon="/usr/share/icons/Papirus-Dark/16x16/apps/preferences-desktop-theme.svg" label="Appearance">
 			<action name="Execute">
 				<execute>lxappearance</execute>
 			</action>
 		</item>
-		<item label="Menubar settings">
+		<item icon="/usr/share/icons/Papirus-Dark/16x16/apps/tint2conf.svg" label="Menubar">
 			<action name="Execute">
 				<execute>tint2conf</execute>
 			</action>
 		</item>
-		<item label="Volume control">
+		<item icon="/usr/share/icons/Papirus-Dark/16x16/apps/qjackctl.svg" label="Volume control">
 			<action name="Execute">
 				<execute>pavucontrol</execute>
 			</action>
 		</item>
-		<item label="Notification settings">
+		<item icon="/usr/share/icons/Papirus-Dark/16x16/apps/xfce4-notifyd.svg" label="Notification settings">
 			<action name="Execute">
 				<execute>xfce4-notifyd-config</execute>
 			</action>
 		</item>
-		<item label="Menu settings">
+		<item icon="/usr/share/icons/Papirus-Dark/16x16/apps/video-display.svg" label="Openbox menu">
 			<action name="Execute">
 				<execute>obmenu</execute>
 			</action>
 		</item>
-		<separator/>
-		<item label="Logout">
+		<separator label="Session"/>
+		<item icon="/usr/share/icons/Papirus-Dark/16x16/apps/xfsm-logout.svg" label="Logout">
 			<action name="Exit"/>
 		</item>
-		<item label="Reboot">
+		<item icon="/usr/share/icons/Papirus-Dark/16x16/apps/xfsm-reboot.svg" label="Reboot">
 			<action name="Execute">
 				<execute>sudo reboot</execute>
 			</action>
 		</item>
-		<item label="Shutdown">
+		<item icon="/usr/share/icons/Papirus-Dark/16x16/apps/xfsm-shutdown.svg" label="Shutdown">
 			<action name="Execute">
 				<execute>sudo shutdown now</execute>
 			</action>
