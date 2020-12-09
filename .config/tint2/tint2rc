@@ -272,9 +272,9 @@ ac_disconnected_cmd =
 #-------------------------------------
 # Button 1
 button = new
-button_icon = computer
+button_icon = klines
 button_text = 
-button_lclick_command = rofi -show drun
+button_lclick_command = python /home/pi/Frambox/menu.py
 button_rclick_command = 
 button_mclick_command = 
 button_uwheel_command = 
