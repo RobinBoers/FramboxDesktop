@@ -1,7 +1,7 @@
 import subprocess
 from guizero import App, Text, PushButton
 
-app = App(title="Logoff", width=240, height=50, layout="grid")
+app = App(title="Session", width=240, height=50, layout="grid")
 
 def shutdown():
     bashCommand = "sudo shutdown now"
