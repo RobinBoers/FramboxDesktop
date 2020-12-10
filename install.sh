@@ -65,6 +65,9 @@ sudo apt install -y firefox-esr
 sudo apt install -y python-wxgtk3.0
 sudo apt install -y matchbox-keyboard
 sudo apt install -y yad
+sudo apt install -y cmatrix
+sudo apt install -y neofetch
+sudo apt install -y brightnessctl
 
 sudo pip3 install guizero
 sudo pip3 install gobject
