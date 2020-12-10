@@ -79,6 +79,13 @@ sudo chmod 755 bfetch
 cd ~
 echo "Installed bfetch"
 
+echo "Installing frambox-info"
+sudo mv frambox-info /usr/bin
+cd /usr/bin
+sudo chmod 755 frambox-info
+cd ~
+echo "Installed frambox-info"
+
 echo "Installing Pi-Apps"
 git clone https://github.com/Botspot/pi-apps
 
