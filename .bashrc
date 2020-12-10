@@ -111,7 +111,7 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-# RETROPIE PROFILE START
+# FRAMBOX PROFILE START
 clear
 
 function getIPAddress() {
@@ -246,4 +246,4 @@ function frambox_welcome() {
 }
 
 frambox_welcome
-# RETROPIE PROFILE END
+# FRAMBOX PROFILE END
