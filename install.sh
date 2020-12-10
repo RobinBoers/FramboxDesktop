@@ -6,7 +6,7 @@ git clone --recursive --depth 1 --branch master https://github.com/RobinBoers/Fr
 echo "Installing desktop..."
 
 sudo apt update
-sudo apt upgrade
+sudo apt -y upgrade
 
 sudo apt install -y lightdm
 sudo apt install -y xorg xinit
@@ -19,6 +19,7 @@ sudo apt install -y tint2
 sudo apt install -y xcompmgr
 sudo apt install -y plank
 sudo apt install -y pcmanfm
+sudo apt install -y thunar
 sudo apt install -y lxappearance
 sudo apt install -y nitrogen
 sudo apt install -y xcompmgr
@@ -32,7 +33,7 @@ sudo apt install -y xarchiver
 sudo apt install -y lxrandr
 
 echo "Copying config files..."
-sudo cp -R -f /home/pi/Frambox/applications /usr/share/applications
+sudo cp -R -f /home/pi/Frambox/applications /usr/share/
 sudo cp -f /home/pi/Frambox/.bashrc /home/pi/.bashrc
 sudo cp -f -R -v /home/pi/Frambox/.gtkrc-2.0-mine /home/pi
 sudo cp -f -R -v /home/pi/Frambox/.gtkrc-2.0 /home/pi
@@ -73,6 +74,7 @@ sudo pip3 install guizero
 sudo pip3 install gobject
 
 echo "Installing bfetch"
+cd Frambox
 sudo mv bfetch /usr/bin
 cd /usr/bin
 sudo chmod 755 bfetch
@@ -80,6 +82,7 @@ cd ~
 echo "Installed bfetch"
 
 echo "Installing frambox-info"
+cd Frambox
 sudo mv frambox-info /usr/bin
 cd /usr/bin
 sudo chmod 755 frambox-info
