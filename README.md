@@ -31,7 +31,7 @@ It also installs:
 - Pi-Apps
 - bfetch (<https://gitlab.com/nautilor/bfetch/-/tree/master>)
 
-It also uses a static IP: 192.168.1.36
+It uses a static IP: 192.168.1.36
 
 ## Installation
 
