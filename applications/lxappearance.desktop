@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Appearance
+Comment=Customize your desktop
+Exec=lxappearance
+Icon=preferences-desktop-theme
+Terminal=false
+Categories=GTK;Settings;DesktopSettings;
