@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Volume Control
+Comment=Volume control using volti
+GenericName=Volume Control
+Exec=pavucontrol
+Icon=multimedia-volume-control
+StartupNotify=true
+Type=Application
+Categories=Settings;Mixer;GTK;
+Name[en_GB]=Volume Control
+NoDisplay=true
