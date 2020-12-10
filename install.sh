@@ -69,6 +69,13 @@ sudo apt install -y yad
 sudo pip3 install guizero
 sudo pip3 install gobject
 
+echo "Installing bfetch"
+sudo mv bfetch /usr/bin
+cd /usr/bin
+sudo chmod 755 bfetch
+cd ~
+echo "Installed bfetch"
+
 echo "Installing Pi-Apps"
 git clone https://github.com/Botspot/pi-apps
 
