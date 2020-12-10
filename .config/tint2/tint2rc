@@ -90,7 +90,7 @@ border_color_hover = #cccccc 100
 background_color_pressed = #777777 21
 border_color_pressed = #777777 100
 
-# Background 7: Active desktop name, Button
+# Background 7: Active desktop name
 rounded = 0
 border_width = 2
 border_sides = B
@@ -142,6 +142,19 @@ background_color_hover = #000000 80
 border_color_hover = #555555 80
 background_color_pressed = #000000 80
 border_color_pressed = #555555 80
+
+# Background 11: Button
+rounded = 0
+border_width = 2
+border_sides = 
+border_content_tint_weight = 0
+background_content_tint_weight = 0
+background_color = #ffffff 0
+border_color = #d9d9d9 100
+background_color_hover = #ffffff 21
+border_color_hover = #d9d9d9 100
+background_color_pressed = #a9a9a9 21
+border_color_pressed = #d9d9d9 100
 
 #-------------------------------------
 # Panel
