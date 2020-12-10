@@ -80,7 +80,7 @@ cd Frambox
 sudo mv bfetch /usr/bin
 cd /usr/bin
 sudo chmod 755 bfetch
-cd ~
+cd /home/pi
 echo "Installed bfetch"
 
 echo "Installing frambox-info"
@@ -88,11 +88,11 @@ cd Frambox
 sudo mv frambox-info /usr/bin
 cd /usr/bin
 sudo chmod 755 frambox-info
-cd ~
+cd /home/pi
 echo "Installed frambox-info"
 
 echo "Installing Pi-Apps"
-git clone https://github.com/Botspot/pi-apps
+git clone https://github.com/Botspot/pi-apps /home/pi/pi-apps
 
 function error {
   echo -e "\e[91m$1\e[39m"
@@ -105,7 +105,7 @@ DIRECTORY="$(readlink -f "$(dirname "$0")")"
 sudo rm -f /usr/share/applications/yad-icon-browser.desktop
 
 echo "Creating menu button..."
-mkdir -p ~/.local/share/applications
+mkdir -p /home/pi/.local/share/applications
 echo "[Desktop Entry]
 Name=Pi Apps
 Comment=Raspberry Pi App Store for open source projects
@@ -113,10 +113,10 @@ Exec=${DIRECTORY}/gui
 Icon=${DIRECTORY}/icons/logo.png
 Terminal=false
 Type=Application
-Categories=Utility;" > ~/.local/share/applications/pi-apps.desktop
+Categories=Utility;" > /home/pi/.local/share/applications/pi-apps.desktop
 
 echo "Adding Desktop shortcut..."
-cp -f ${HOME}/.local/share/applications/pi-apps.desktop ${HOME}/Desktop/pi-apps.desktop
+cp -f /home/pi/.local/share/applications/pi-apps.desktop /home/pi/Desktop/pi-apps.desktop
 
 echo "Creating Settings menu button..."
 echo "[Desktop Entry]
@@ -126,10 +126,10 @@ Exec=${DIRECTORY}/settings
 Icon=${DIRECTORY}/icons/logo.png
 Terminal=false
 Type=Application
-Categories=Settings;" > ~/.local/share/applications/pi-apps-settings.desktop
+Categories=Settings;" > /home/pi/.local/share/applications/pi-apps-settings.desktop
 
 echo "Creating autostarted updater..."
-mkdir -p ~/.config/autostart
+mkdir -p /home/pi/.config/autostart
 echo "[Desktop Entry]
 Name=Pi Apps Updater
 Exec=${DIRECTORY}/updater onboot
@@ -138,7 +138,7 @@ Terminal=false
 Type=Application
 X-GNOME-Autostart-enabled=true
 Hidden=false
-NoDisplay=false" > ~/.config/autostart/pi-apps-updater.desktop
+NoDisplay=false" > /home/pi/.config/autostart/pi-apps-updater.desktop
 
 mkdir -p "${DIRECTORY}/data"
 cd "${DIRECTORY}/data"
