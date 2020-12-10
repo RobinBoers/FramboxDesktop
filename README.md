@@ -15,7 +15,6 @@ The custom desktop uses:
 - pcmanfm
 - lxappearance
 - nitrogen (wallpapers)
-- custom config for openbox, lightdm, nitogen and tint2
 
 It also installs:
 
@@ -26,7 +25,11 @@ It also installs:
 - Sonic Pi
 - Matchbox Keyboard
 - Firefox ESR
-- Synaptic Package Manager
+- Synaptic
+- cmatrix
+- neofetch
+- Pi-Apps
+- bfetch (<https://gitlab.com/nautilor/bfetch/-/tree/master>)
 
 It also uses a static IP: 192.168.1.36
 
