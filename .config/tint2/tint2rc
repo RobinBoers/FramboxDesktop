@@ -297,13 +297,13 @@ separator_padding = 1 0
 # Button 1
 button = new
 button_icon = klines
-button_text = 
+button_text = Applications
 button_lclick_command = python /home/pi/Frambox/menu.py
 button_rclick_command = 
 button_mclick_command = 
 button_uwheel_command = 
 button_dwheel_command = 
-button_font = Sans 12
+button_font = sans bold 8
 button_font_color = #ffffff 100
 button_padding = 3 4
 button_background_id = 7
