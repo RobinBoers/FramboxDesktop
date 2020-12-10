@@ -5,31 +5,31 @@ git clone --recursive --depth 1 --branch master https://github.com/RobinBoers/Fr
 
 echo "Installing desktop..."
 
-sudo apt-get update
-sudo apt-get upgrade
+sudo apt update
+sudo apt upgrade
 
-sudo apt-get install -y lightdm
-sudo apt-get install -y xorg xinit
+sudo apt install -y lightdm
+sudo apt install -y xorg xinit
 
-sudo apt-get install -y openbox obconf openbox-menu obmenu
-sudo apt-get install -y lxterminal
-sudo apt-get install -y leafpad  
-sudo apt-get install -y xfce4-notifyd
-sudo apt-get install -y tint2
-sudo apt-get install -y xcompmgr
-sudo apt-get install -y plank
-sudo apt-get install -y pcmanfm
-sudo apt-get install -y lxappearance
-sudo apt-get install -y nitrogen
-sudo apt-get install -y xcompmgr
-sudo apt-get install -y pavucontrol
-sudo apt-get install -y volti
-sudo apt-get install -y rofi
-sudo apt-get install -y lxtask
-sudo apt-get install -y elementary-xfce-icon-theme
-sudo apt-get install -y lxqt-system-theme papirus-icon-theme
-sudo apt-get install -y xarchiver
-sudo apt-get install -y lxrandr
+sudo apt install -y openbox obconf openbox-menu obmenu
+sudo apt install -y lxterminal
+sudo apt install -y leafpad  
+sudo apt install -y xfce4-notifyd
+sudo apt install -y tint2
+sudo apt install -y xcompmgr
+sudo apt install -y plank
+sudo apt install -y pcmanfm
+sudo apt install -y lxappearance
+sudo apt install -y nitrogen
+sudo apt install -y xcompmgr
+sudo apt install -y pavucontrol
+sudo apt install -y volti
+sudo apt install -y rofi
+sudo apt install -y lxtask
+sudo apt install -y elementary-xfce-icon-theme
+sudo apt install -y lxqt-system-theme papirus-icon-theme
+sudo apt install -y xarchiver
+sudo apt install -y lxrandr
 
 echo "Copying config files..."
 sudo cp -R -f /home/pi/Frambox/applications /usr/share/applications
@@ -53,18 +53,18 @@ sudo chmod 777 /home/pi/.config/openbox/rc.xml
 sudo chmod 777 /home/pi/.config/tint2/tint2rc
 
 echo "Installing other packages"
-sudo apt-get install -y python3 idle3
-sudo apt-get install -y python3-pip
-sudo apt-get install -y dialog
-sudo apt-get install -y synaptic
-sudo apt-get install -y minecraft-pi
-sudo apt-get install -y sonic-pi
-sudo apt-get install -y hping3
-sudo apt-get install -y nmap
-sudo apt-get install -y firefox-esr
-sudo apt-get install -y python-wxgtk3.0
-sudo apt-get install -y matchbox-keyboard
-sudo apt-get install -y yad
+sudo apt install -y python3 idle3
+sudo apt install -y python3-pip
+sudo apt install -y dialog
+sudo apt install -y synaptic
+sudo apt install -y minecraft-pi
+sudo apt install -y sonic-pi
+sudo apt install -y hping3
+sudo apt install -y nmap
+sudo apt install -y firefox-esr
+sudo apt install -y python-wxgtk3.0
+sudo apt install -y matchbox-keyboard
+sudo apt install -y yad
 
 sudo pip3 install guizero
 sudo pip3 install gobject
