@@ -336,7 +336,7 @@ button_dwheel_command =
 button_font = Sans 12
 button_font_color = #ffffff 100
 button_padding = 5 5
-button_background_id = 7
+button_background_id = 11
 button_centered = 0
 button_max_icon_size = 0
 
