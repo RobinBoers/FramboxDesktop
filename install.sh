@@ -52,10 +52,7 @@ sudo chmod 777 /home/pi/.bashrc
 sudo chmod 777 /home/pi/.config/lxterminal/lxterminal.conf
 sudo chmod 777 /home/pi/.gtkrc-2.0-mine
 sudo chmod 777 /etc/lightdm/lightdm-gtk-greeter.conf
-sudo chmod 777 /home/pi/.config/openbox/autostart.sh
-sudo chmod 777 /home/pi/.config/openbox/menu.xml
-sudo chmod 777 /home/pi/.config/openbox/rc.xml
-sudo chmod 777 /home/pi/.config/tint2/tint2rc
+sudo chmod -R 777 /home/pi/.config
 
 echo "Installing other packages"
 sudo apt install -y python3 idle3
