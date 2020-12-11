@@ -102,7 +102,7 @@ function error {
   exit 1
 }
 
-DIRECTORY="$(readlink -f "$(dirname "$0")")"
+DIRECTORY="/home/pi/pi-apps"
 
 #remove annoying YAD icon browser launcher
 sudo rm -f /usr/share/applications/yad-icon-browser.desktop
