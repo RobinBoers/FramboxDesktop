@@ -39,7 +39,7 @@ sudo apt install -y lxrandr
 echo "Copying config files..."
 sudo cp -R -f /home/pi/Frambox/applications /usr/share/
 sudo cp -f /home/pi/Frambox/.bashrc /home/pi/.bashrc
-sudo cp -f -R -v /home/pi/Frambox/.gtkrc-2.0-mine /home/pi
+sudo cp -f -R -v /home/pi/Frambox/.gtkrc-2.0.mine /home/pi
 sudo cp -f -R -v /home/pi/Frambox/.gtkrc-2.0 /home/pi
 sudo cp -R -f /home/pi/Frambox/lightdm-gtk-greeter.conf /etc/lightdm/lightdm-gtk-greeter.conf
 sudo cp -R -f /home/pi/Frambox/.config/ /home/pi/
