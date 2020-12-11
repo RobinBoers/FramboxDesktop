@@ -174,7 +174,7 @@ echo "Preloading app list..."
 "${DIRECTORY}/preload" &>/dev/null
 
 cd /home/pi
-sudo chmod 777 pi-apps
+sudo chmod -R ugo+rwx pi-apps
 echo "Pi-Apps installation complete."
 
 echo "Enabling SSH..."
