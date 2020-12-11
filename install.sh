@@ -13,12 +13,11 @@ sudo apt -y upgrade
 sudo apt install -y lightdm
 sudo apt install -y xorg xinit
 
-sudo apt install -y openbox-gnome-session obconf openbox-menu obmenu libxml2-dev
+sudo apt install -y openbox openbox-gnome-session obconf openbox-menu obmenu libxml2-dev
 sudo apt install -y lxterminal
 sudo apt install -y leafpad 
 sudo apt install -y xfce4-screenshooter
 sudo apt install -y xfce4-notifyd
-sudo apt install -y xfce4-settings
 sudo apt install -y tint2
 sudo apt install -y xcompmgr
 sudo apt install -y plank
