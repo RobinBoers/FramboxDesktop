@@ -1,5 +1,5 @@
 xcompmgr &
 plank &
-pcmanfm --desktop
+pcmanfm --desktop --profile Frambox
 tint2 &
 volti &
