@@ -173,6 +173,8 @@ echo "Creating settings if they don"\'"t exist..."
 echo "Preloading app list..."
 "${DIRECTORY}/preload" &>/dev/null
 
+cd /home/pi
+sudo chmod 777 pi-apps
 echo "Pi-Apps installation complete."
 
 echo "Enabling SSH..."
