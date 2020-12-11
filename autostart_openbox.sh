@@ -1,5 +1,5 @@
 xcompmgr &
-tint2 &
-nitrogen --restore &
-volti &
 plank &
+pcmanfm --desktop
+tint2 &
+volti &
