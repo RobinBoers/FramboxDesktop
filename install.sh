@@ -15,7 +15,7 @@ sudo apt install -y xorg xinit
 
 sudo apt install -y openbox openbox-gnome-session obconf openbox-menu obmenu libxml2-dev
 sudo apt install -y lxterminal
-sudo apt install -y leafpad 
+sudo apt install -y leafpad
 sudo apt install -y xfce4-screenshooter
 sudo apt install -y xfce4-notifyd
 sudo apt install -y tint2
@@ -26,9 +26,9 @@ sudo apt install -y thunar
 sudo apt install -y parole
 sudo apt install -y lxappearance
 sudo apt install -y nitrogen
-sudo apt install -y xcompmgr
 sudo apt install -y pavucontrol
 sudo apt install -y volti
+sudo apt install -y brightnessctl
 sudo apt install -y rofi
 sudo apt install -y lxtask
 sudo apt install -y elementary-xfce-icon-theme
@@ -72,7 +72,6 @@ sudo apt install -y matchbox-keyboard
 sudo apt install -y yad
 sudo apt install -y cmatrix
 sudo apt install -y neofetch
-sudo apt install -y brightnessctl
 sudo apt install -y libgtk-3-dev
 
 sudo pip3 install guizero
@@ -95,6 +94,8 @@ cd /home/pi
 echo "Installed frambox-info"
 
 echo "Installing Pi-Apps"
+cd /home/pi
+sudo rm -f -R pi-apps
 git clone https://github.com/Botspot/pi-apps /home/pi/pi-apps
 
 function error {
