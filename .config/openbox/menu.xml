@@ -63,7 +63,7 @@
 				<execute>xfce4-notifyd-config</execute>
 			</action>
 		</item>
-		<item icon="/usr/share/icons/Papirus-Dark/16x16/apps/video-display.svg" label="Openbox menu">
+		<item icon="/usr/share/icons/Papirus-Dark/16x16/apps/multitasking-view.svg" label="Openbox menu">
 			<action name="Execute">
 				<execute>obmenu</execute>
 			</action>
