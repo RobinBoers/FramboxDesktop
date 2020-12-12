@@ -53,7 +53,7 @@ sudo chmod -R 777 /home/pi/.config
 
 echo "Installing other packages"
 # Python
-sudo apt install -y python3 idle3 python3-pip
+sudo apt install -y python3 idle3 python3-pip python python-pip
 
 # Programs
 sudo apt install -y minecraft-pi sonic-pi firefox-esr parole
