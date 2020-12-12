@@ -65,7 +65,7 @@ sudo apt install -y hping3 nmap cmatrix neofetch
 sudo apt install -y matchbox-keyboard
 
 # Dependecies for other programs / tools
-sudo apt install -y yad python-wxgtk3.0 libgtk-3-dev dialog
+sudo apt install -y yad python-wxgtk3.0 libgtk-3-dev dialog python-tk
 
 # Used in the menu and logoff script
 sudo pip3 install guizero
