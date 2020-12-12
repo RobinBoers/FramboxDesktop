@@ -34,6 +34,10 @@ It also installs:
 - Pi-Apps
 - bfetch (<https://gitlab.com/nautilor/bfetch/-/tree/master>)
 
+The original custom openbox theme is made by Brodan, and is called Adwaita Revisited.
+I editted it a bit to make it look better.
+<https://www.gnome-look.org/p/1179478>
+
 It uses a static IP: 192.168.1.36
 
 ## Installation
