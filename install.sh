@@ -15,29 +15,6 @@ sudo apt install -y xorg xinit
 
 # Window Manager
 sudo apt install -y openbox openbox-gnome-session obconf openbox-menu obmenu libxml2-dev
-<<<<<<< Updated upstream
-sudo apt install -y lxterminal
-sudo apt install -y leafpad
-sudo apt install -y xfce4-screenshooter
-sudo apt install -y xfce4-notifyd
-sudo apt install -y tint2
-sudo apt install -y xcompmgr
-sudo apt install -y plank
-sudo apt install -y pcmanfm
-sudo apt install -y thunar
-sudo apt install -y parole
-sudo apt install -y lxappearance
-sudo apt install -y nitrogen
-sudo apt install -y pavucontrol
-sudo apt install -y volti
-sudo apt install -y brightnessctl
-sudo apt install -y rofi
-sudo apt install -y lxtask
-sudo apt install -y elementary-xfce-icon-theme
-sudo apt install -y lxqt-system-theme papirus-icon-theme
-sudo apt install -y xarchiver
-sudo apt install -y lxrandr
-=======
 
 # System
 sudo apt install -y lxterminal leafpad pcmanfm
@@ -55,7 +32,6 @@ sudo apt install -y lxappearance lxappearance-obconf lxtask lxrandr xarchiver
 
 # Themes
 sudo apt install -y elementary-xfce-icon-theme lxqt-system-theme papirus-icon-theme
->>>>>>> Stashed changes
 
 echo "Copying config files..."
 sudo cp -R -f /home/pi/Frambox/applications /usr/share/
@@ -90,10 +66,7 @@ sudo apt install -y matchbox-keyboard
 sudo apt install -y yad
 sudo apt install -y cmatrix
 sudo apt install -y neofetch
-<<<<<<< Updated upstream
-=======
 sudo apt install -y parole
->>>>>>> Stashed changes
 sudo apt install -y libgtk-3-dev
 
 sudo pip3 install guizero
