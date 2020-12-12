@@ -6,15 +6,18 @@ This was first a part of the FramboxOS script, but I decided I wanted it to be i
 The custom desktop uses:
 
 - lightdm
-- openbox
+- openbox (gnome session)
 - leafpad
 - lxterminal
 - xfce4-notifyd (notifications)
 - tint2 (menu bar)
 - plank (dock)
-- pcmanfm
+- pcmanfm (file manager + desktop)
 - lxappearance
-- nitrogen (wallpapers)
+- pavucontrol 
+- volti
+- brightnessctl
+- rofi (CTRL+Space)
 
 It also installs:
 
