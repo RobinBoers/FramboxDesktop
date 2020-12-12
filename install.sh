@@ -17,7 +17,7 @@ sudo apt install -y xorg xinit
 sudo apt install -y openbox openbox-gnome-session obconf openbox-menu obmenu libxml2-dev
 
 # System
-sudo apt install -y lxterminal leafpad pcmanfm
+sudo apt install -y lxterminal leafpad pcmanfm synaptic
 sudo apt install -y xfce4-screenshooter xfce4-notifyd
 
 # UI
@@ -41,7 +41,6 @@ sudo cp -f -R -v /home/pi/Frambox/.gtkrc-2.0.mine /home/pi
 sudo cp -f -R -v /home/pi/Frambox/.gtkrc-2.0 /home/pi
 sudo cp -R -f /home/pi/Frambox/lightdm-gtk-greeter.conf /etc/lightdm/lightdm-gtk-greeter.conf
 sudo cp -R -f /home/pi/Frambox/.config/ /home/pi/
-sudo cp -f /home/pi/Frambox/autostart_openbox.sh /home/pi/.config/openbox/autostart.sh
 
 echo "Settings permissions..."
 sudo chmod 777 /home/pi/Frambox
@@ -53,23 +52,22 @@ sudo chmod 777 /etc/lightdm/lightdm-gtk-greeter.conf
 sudo chmod -R 777 /home/pi/.config
 
 echo "Installing other packages"
-sudo apt install -y python3 idle3
-sudo apt install -y python3-pip
-sudo apt install -y dialog
-sudo apt install -y synaptic
-sudo apt install -y minecraft-pi
-sudo apt install -y sonic-pi
-sudo apt install -y hping3
-sudo apt install -y nmap
-sudo apt install -y firefox-esr
-sudo apt install -y python-wxgtk3.0
-sudo apt install -y matchbox-keyboard
-sudo apt install -y yad
-sudo apt install -y cmatrix
-sudo apt install -y neofetch
-sudo apt install -y parole
-sudo apt install -y libgtk-3-dev
+# Python
+sudo apt install -y python3 idle3 python3-pip
 
+# Programs
+sudo apt install -y minecraft-pi sonic-pi firefox-esr parole
+
+# Commandline tools
+sudo apt install -y hping3 nmap cmatrix neofetch
+
+# Keyboard for touchscreens
+sudo apt install -y matchbox-keyboard
+
+# Dependecies for other programs / tools
+sudo apt install -y yad python-wxgtk3.0 libgtk-3-dev dialog
+
+# Used in the menu and logoff script
 sudo pip3 install guizero
 sudo pip3 install gobject
 
