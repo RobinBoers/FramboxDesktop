@@ -14,7 +14,7 @@ sudo apt install -y lightdm
 sudo apt install -y xorg xinit
 
 # Window Manager
-sudo apt install -y openbox openbox-gnome-session obconf openbox-menu obmenu libxml2-dev
+sudo apt install -y openbox openbox-gnome-session obconf openbox-menu obmenu libxml2-dev parcellite
 
 # System
 sudo apt install -y lxterminal leafpad pcmanfm synaptic
