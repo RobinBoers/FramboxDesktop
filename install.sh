@@ -41,6 +41,7 @@ sudo cp -f -R -v /home/pi/Frambox/.gtkrc-2.0.mine /home/pi
 sudo cp -f -R -v /home/pi/Frambox/.gtkrc-2.0 /home/pi
 sudo cp -R -f /home/pi/Frambox/lightdm-gtk-greeter.conf /etc/lightdm/lightdm-gtk-greeter.conf
 sudo cp -R -f /home/pi/Frambox/.config/ /home/pi/
+sudo cp -R -f /home/pi/Frambox/.themes/ /home/pi/
 
 echo "Settings permissions..."
 sudo chmod 777 /home/pi/Frambox
