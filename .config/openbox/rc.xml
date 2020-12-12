@@ -175,6 +175,12 @@
   </dock>
   <keyboard>
     <chainQuitKey>C-g</chainQuitKey>
+    <!-- Custom keybinds-->
+    <keybind key="C-space">
+      <action name="execute">
+        <command>rofi -show drun</command>
+      </action>
+    </keybind>
     <!-- Keybindings for desktop switching -->
     <keybind key="C-A-Left">
       <action name="GoToDesktop">
