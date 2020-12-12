@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Home
+Type=Application
+Exec=pcmanfm /home/pi/
+Icon=org.kde.placesWidget
