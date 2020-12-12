@@ -35,6 +35,7 @@ sudo apt install -y elementary-xfce-icon-theme lxqt-system-theme papirus-icon-th
 
 echo "Copying config files..."
 sudo cp -R -f /home/pi/Frambox/applications /usr/share/
+sudo cp -f /home/pi/Frambox/home.desktop /home/pi/Desktop/home.desktop
 sudo cp -f /home/pi/Frambox/.bashrc /home/pi/.bashrc
 sudo cp -f -R -v /home/pi/Frambox/.gtkrc-2.0.mine /home/pi
 sudo cp -f -R -v /home/pi/Frambox/.gtkrc-2.0 /home/pi
