@@ -159,7 +159,7 @@ border_color_pressed = #d9d9d9 100
 #-------------------------------------
 # Panel
 panel_items = PFCFSP:
-panel_size = 100% 32
+panel_size = 100% 26
 panel_margin = 0 0
 panel_padding = 4 0 4
 panel_background_id = 10
