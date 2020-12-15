@@ -1,4 +1,3 @@
-xcompmgr -c &
 plank &
 pcmanfm --desktop --profile Frambox &
 tint2 &
