@@ -18,7 +18,7 @@ sudo apt install -y openbox openbox-gnome-session obconf openbox-menu obmenu lib
 
 # System
 sudo apt install -y lxterminal leafpad pcmanfm synaptic
-sudo apt install -y xfce4-notifyd scrot
+sudo apt install -y xfce4-notifyd scrot gpicview
 
 # UI
 sudo apt install -y tint2 plank rofi
