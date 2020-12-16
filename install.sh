@@ -183,6 +183,7 @@ sudo cp -f /home/pi/Frambox/hostname /etc/hostname
 echo "Please choose a new password: (for pi user)"
 passwd pi
 
+sudo apt autoremove
 sudo chmod -R 777 /home/pi
 
 sudo cp -f /home/pi/Frambox/hosts /etc/hosts
