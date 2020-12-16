@@ -178,7 +178,7 @@
     <!-- Custom keybinds -->
     <keybind key="A-S-space">
       <action name="ShowMenu">
-        <command>root-menu</command>
+        <menu>root-menu</menu>
       </action>
     </keybind>
     <keybind key="C-space">
