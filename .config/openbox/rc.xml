@@ -176,6 +176,11 @@
   <keyboard>
     <chainQuitKey>C-g</chainQuitKey>
     <!-- Custom keybinds -->
+    <keybind key="A-S-space">
+      <action name="ShowMenu">
+        <command>root-menu</command>
+      </action>
+    </keybind>
     <keybind key="C-space">
       <action name="execute">
         <command>rofi -show drun</command>
