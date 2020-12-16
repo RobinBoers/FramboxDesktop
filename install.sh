@@ -54,7 +54,7 @@ sudo chmod 777 /home/pi/Frambox
 sudo chmod 777 /home/pi/.config
 sudo chmod 777 /home/pi/.bashrc
 sudo chmod 777 /home/pi/.config/lxterminal/lxterminal.conf
-sudo chmod 777 /home/pi/.gtkrc-2.0-mine
+sudo chmod 777 /home/pi/.gtkrc-2.0.mine
 sudo chmod 777 /etc/lightdm/lightdm-gtk-greeter.conf
 sudo chmod -R 777 /home/pi/.config
 
