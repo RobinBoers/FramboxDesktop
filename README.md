@@ -36,10 +36,10 @@ The script installs the following packages / programs.
 - plank (dock)
 - pcmanfm (file manager + desktop)
 - lxappearance
-- pavucontrol 
+- pavucontrol
 - volti
 - brightnessctl
-- rofi (CTRL+Space)
+- rofi (Super key / Windows key)
 - Minecraft Pi
 - nmap
 - hping3
