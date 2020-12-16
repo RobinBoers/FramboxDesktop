@@ -181,6 +181,11 @@
         <command>rofi -show drun</command>
       </action>
     </keybind>
+    <keybind key="W">
+      <action name="execute">
+        <command>rofi -show drun</command>
+      </action>
+    </keybind>
     <!-- Keybindings for desktop switching -->
     <keybind key="C-A-Left">
       <action name="GoToDesktop">
