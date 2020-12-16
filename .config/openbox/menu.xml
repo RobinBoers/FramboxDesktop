@@ -4,7 +4,7 @@
 		<separator label="FramboxOS"/>
 		<item icon="/usr/share/icons/Papirus-Dark/16x16/apps/openterm.svg" label="Terminal">
 			<action name="Execute">
-				<execute>lxterminal</execute>
+				<execute>x-terminal-emulator</execute>
 			</action>
 		</item>
 		<item icon="/usr/share/icons/Papirus-Dark/16x16/apps/xfce-filemanager.svg" label="File Manager">
