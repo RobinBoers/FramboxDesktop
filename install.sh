@@ -43,6 +43,12 @@ sudo cp -R -f /home/pi/Frambox/lightdm-gtk-greeter.conf /etc/lightdm/lightdm-gtk
 sudo cp -R -f /home/pi/Frambox/.config/ /home/pi/
 sudo cp -R -f /home/pi/Frambox/.themes/ /home/pi/
 
+echo "Installing nord color scheme"
+cd /home/pi
+sudo rm -f -R Nord
+git clone --recursive --depth 1 --branch master https://github.com/arcticicestudio/nord-xresources /home/pi/Nord
+xrdb -merge /home/pi/Nord/src/nord
+
 echo "Settings permissions..."
 sudo chmod 777 /home/pi/Frambox
 sudo chmod 777 /home/pi/.config

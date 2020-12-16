@@ -135,13 +135,13 @@ border_width = 1
 border_sides = B
 border_content_tint_weight = 0
 background_content_tint_weight = 0
-background_color = #2d2d2d 80
-border_color = #333333 80
+background_color = #383C4A 80
+border_color = #383C4A 80
 gradient_id = 0
-background_color_hover = #000000 80
-border_color_hover = #555555 80
-background_color_pressed = #000000 80
-border_color_pressed = #555555 80
+background_color_hover = #383C4A 80
+border_color_hover = #383C4A 80
+background_color_pressed = #383C4A 80
+border_color_pressed = #383C4A 80
 
 # Background 11: Button
 rounded = 0
